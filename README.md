@@ -1,14 +1,17 @@
-Clone the repository:
+1.Clone the repository:
 git clone https://github.com/shoaibchauhan/attendance.git
 
-Configure the database (PostgreSQL is used):
+2.Configure the database (PostgreSQL is used):
 Update the DATABASES settings in the settings.py file to point to your PostgreSQL database.
 
-Run migrations:
+3.activate virtual environment
+
+4.Run migrations:
 python manage.py makemigrations
 python manage.py migrate
 
-Start the FastAPI application:
+
+5.Start the FastAPI application:
 
 uvicorn main:app --reload
 Test the API endpoints using Swagger UI by navigating to /docs in your browser:
