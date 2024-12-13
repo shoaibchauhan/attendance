@@ -4,7 +4,7 @@ git clone https://github.com/shoaibchauhan/attendance.git
 2.Configure the database (PostgreSQL is used):
 Update the DATABASES settings in the settings.py file to point to your PostgreSQL database.
 
-3.activate virtual environment
+3.Activate virtual environment
 
 4.Run migrations:
 python manage.py makemigrations
